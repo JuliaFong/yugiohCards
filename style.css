@@ -23,4 +23,30 @@ main {
 main > h1 {
     text-align: center;
     color: black;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1 fr));
+    grid-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 12rem auto;
+    background: #444444;
+    color: tan;
+    padding: 1rem;
+    border-radius: 12px;
+    border-top: 0.5px solid burlywood;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.18), 0 3px 6px rgba(0, 0, 0, 0.23);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s ease-in-out all;
 }
